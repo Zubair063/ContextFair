@@ -1,0 +1,16 @@
+# Core deep learning
+# Install a CUDA build of torch/torchvision from https://pytorch.org if needed.
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerics / data
+numpy>=1.23.0
+pandas>=1.5.0
+Pillow>=9.0.0
+
+# Metrics / progress
+scikit-learn>=1.2.0
+tqdm>=4.64.0
+
+# FairTune PEFT mask search (TPE); falls back to random search if missing
+optuna>=3.0.0
